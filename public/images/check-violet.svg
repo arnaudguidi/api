@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icone/check-violet</title>
+    <g id="icone/check-violet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
+        <polygon id="Icon-Path" fill="#5B0AC4" fill-rule="nonzero" points="11.8373803 20.1684201 6.35437769 14.5423973 4 16.9581872 11.8373803 25 28 8.41578995 25.6456223 6"></polygon>
+    </g>
+</svg>

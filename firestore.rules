@@ -1,0 +1,62 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // match logged in user docs in user and simulations collection
+    match /settings/{settings_doc}{
+    	allow read: if request.auth.uid != null;
+    }
+    
+    match /users/{uid}{
+    	allow create: if request.auth.uid != null;
+    	allow read, write: if request.auth.uid == uid;
+      
+      match /checkout_sessions/{id} {
+        allow read, write: if request.auth.uid == uid;
+      }
+      match /subscriptions/{id} {
+        allow read: if request.auth.uid == uid;
+      }
+    }
+    // Simulations    
+    match /simulations/{uid} {
+    	allow create: if request.auth.uid != null;
+    	allow read, write: if request.auth.uid == uid;
+      
+      match /historique/{document} {
+      	allow create: if request.auth.uid == uid;
+    		allow read, write: if request.auth.uid == uid;
+      }
+    }
+    // test
+    match /simulations/{uid}/historique/{document=**} {
+      //allow read, write: if true;
+      allow read: if request.auth.uid == "3irRHZpvZ6auDe30UAJMt4PBch33";
+    }
+    
+    // Stripe NEW
+    match /stripe_customers/{uid} {
+      allow read, write: if request.auth.uid == uid;
+
+      match /payment_methods/{id} {
+        allow read,write: if request.auth.uid == uid;
+      }
+      match /payments/{id} {
+        allow read, write: if request.auth.uid == uid;
+      }
+
+    }
+    // Stripe
+    match /products/{id} {
+      allow read: if true;
+
+      match /prices/{id} {
+        allow read: if true;
+      }
+
+      match /tax_rates/{id} {
+        allow read: if true;
+      }
+    }    
+  }
+}

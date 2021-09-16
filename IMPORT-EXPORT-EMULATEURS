@@ -1,0 +1,4 @@
+firebase emulators:start --import=./sauvegarde --export-on-exit
+
+Export seul :
+firebase emulators:export ./sauvegarde

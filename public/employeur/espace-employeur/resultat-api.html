@@ -1,0 +1,2578 @@
+<!DOCTYPE html><!--  Last Published: Wed Sep 08 2021 20:25:01 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="60db4d819ce2903dc348db8c" data-wf-site="5f671798fc6bc6c0ceef7220">
+<head>
+  <meta charset="utf-8">
+  <title>resultat-api</title>
+  <meta content="Découvrez le résultat de la simulation des indemnités de rupture opérée par Jobexit Employeur" name="description">
+  <meta content="resultat-api" property="og:title">
+  <meta content="Découvrez le résultat de la simulation des indemnités de rupture opérée par Jobexit Employeur" property="og:description">
+  <meta content="resultat-api" property="twitter:title">
+  <meta content="Découvrez le résultat de la simulation des indemnités de rupture opérée par Jobexit Employeur" property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="gAhHaklxImDtn9MuetHCWSgX_phrxj5Bxo2xWJM1UG0" name="google-site-verification">
+  <link href="../../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../../css/jobexit.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","IBM Plex Mono:regular,600","Roboto:regular,500,700"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../../images/favicon.png" rel="shortcut icon" type="image/x-icon">
+  <link href="../../images/webclip.png" rel="apple-touch-icon">
+  <link href="https://www.jobexit.fr//test-2/resultat-api" rel="canonical">
+  <style>.anti-flicker-hide { opacity: 0 !important}</style>
+  <script type="text/javascript">(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;})(window,document.documentElement,'anti-flicker-hide','dataLayer',4000,{'OPT-55NJT7H':true});</script>
+  <style>
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+</style>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="c1c89cba-b7aa-4d17-9ffd-6fc3d626bd25" type="text/javascript" async=""></script>
+  <style>.async-hide { opacity: 0 !important} </style>
+  <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-W45QV2D':true});</script>
+  <!--  Google Tag Manager  -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W45QV2D');</script>
+  <!--  End Google Tag Manager  -->
+  <!--  Google Tag Manager (noscript)  -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W45QV2D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!--  End Google Tag Manager (noscript)  -->
+  <style>
+    .page-contents {
+        display: none;
+    }
+	#footer {
+        display: none;
+    }
+	.navbar-container.fixed {
+    display: none;
+		transform: translate3d(0px, 0px, 0px); 
+		transform-style: preserve-3d;
+    }
+</style>
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href="../../css/resultat-api.css" rel="stylesheet" type="text/css">
+  <style type="text/css">div#ui-datepicker-div.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all{z-index: 2222 !important;}</style>
+</head>
+<body>
+  <div class="navbar-container fixed">
+    <div data-collapse="medium" data-animation="default" data-duration="12" data-easing="linear" data-easing2="linear" role="banner" class="navbar w-nav">
+      <div class="nav-bar-espace-employeur">
+        <nav role="navigation" class="nav-bar-employeur-top w-nav-menu">
+          <div class="nav-bar-employeur-inner">
+            <div class="nav-bar-employeur-top-inner">
+              <a href="https://www.linkedin.com/company/jobexit/" target="_blank" class="nav-menu-social-up w-inline-block"><img src="../../images/linkedin-blanc_1.svg" loading="lazy" alt="Icône LinkedIn"></a>
+              <a href="../../la-newsletter-de-jobexit.html" target="_blank" class="nav-menu-social-up w-inline-block"><img src="../../images/nav-newsletter-blanc.svg" loading="lazy" alt="Icône Newsletter
+"></a>
+              <a href="#" class="nav-menu-link-up-pro w-inline-block">
+                <div>À PROPOS</div>
+              </a>
+              <a href="#" class="nav-menu-link-up-pro w-inline-block">
+                <div>BLOG</div>
+              </a>
+              <a href="#" class="nav-menu-button-top w-inline-block"><img src="../../images/x-jobexit-blanc-full.svg" loading="lazy" alt="" class="nav-menu-button-x">
+                <div>ESPACE SALARIÉ</div>
+              </a>
+            </div>
+          </div>
+        </nav>
+        <div class="nav-bar-employeur-center">
+          <div class="nav-bar-employeur-inner center">
+            <a href="../../employeur.html" class="nav-bar-employeur-logo w-nav-brand"><img src="../../images/logo-jobexit-employeur-seul.png" sizes="(max-width: 479px) 100vw, 148px" srcset="../../images/logo-jobexit-employeur-seul-p-500.png 500w, ../../images/logo-jobexit-employeur-seul-p-800.png 800w, ../../images/logo-jobexit-employeur-seul.png 1400w" alt="" class="image-31"></a>
+            <div class="nav-bar-right-section-pro">
+              <nav role="navigation" class="nav-menu-links-pro w-nav-menu">
+                <a id="navsimul" href="../../employeur/espace-employeur/simulateur-employeur.html" class="nav-menu-button w-button">Faire une simulation</a>
+                <a id="logout" href="../../employeur/espace-employeur/simulateur-employeur.html" class="nav-menu-button logout w-button">Déconnexion</a>
+                <a id="accountLink" href="../../employeur/espace-employeur/mon-compte.html" class="nav-menu-link-under-pro connexion account w-inline-block"><img src="../../images/nav-account.svg" loading="lazy" alt="Icône Mon compte" class="nav-bar-menu-account-image">
+                  <div>Mon compte</div>
+                </a>
+              </nav>
+              <div class="nav-button-container">
+                <div class="menu-button w-nav-button"><img src="../../images/icon-menu.svg" alt="Icône Menu"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-bar-mobile">
+          <div class="nav-bar-employeur-mobile">
+            <div class="nav-bar-employeur-inner center">
+              <a href="../../index.html" class="nav-bar-employeur-logo w-nav-brand"><img src="../../images/logo-jobexit.svg" alt="Logo Jobexit blanc"></a>
+              <a data-w-id="13a7b29b-677e-154f-52ef-3220c8c448fc" href="#" class="nav-bar-mobile-hamburger w-inline-block"><img src="../../images/burger.svg" loading="lazy" alt="Icône menu" width="24"></a>
+            </div>
+          </div>
+          <div class="nav-bar-mobile-menu-open">
+            <div class="nav-bar-mobile-open-inner">
+              <div class="nav-bar-menu-open-left flex-vert">
+                <div class="nav-menu-link-under-mobile-titre">J&#x27;estime mes coûts</div>
+                <a href="#" class="nav-menu-link-under-mobile drop-decalage w-inline-block">
+                  <div>Les conventions collectives prises en compte</div>
+                </a>
+                <a href="#" class="nav-menu-link-under-mobile drop-decalage w-inline-block">
+                  <div>Le simulateur Jobexit</div>
+                </a>
+                <a href="../../a-propos.html" class="nav-menu-link-under-mobile w-inline-block">
+                  <div>tarifs</div>
+                </a>
+                <a href="../../je-minforme.html" class="nav-menu-link-under-mobile w-inline-block">
+                  <div>J’ANALYSE LA SITUATION</div>
+                </a>
+                <a href="../../je-me-lance.html" class="nav-menu-link-under-mobile w-inline-block">
+                  <div>JE COMMENCE</div>
+                </a>
+              </div>
+              <div class="nav-bar-menu-open-left flex-vert">
+                <a id="loginLink" href="../../blog.html" class="nav-menu-link-under-mobile connexion w-inline-block">
+                  <div>CONNEXION</div>
+                </a>
+                <a id="logoutLink" href="../../blog.html" class="nav-menu-link-under-mobile connexion w-inline-block">
+                  <div>DéCONNEXION</div>
+                </a>
+                <a id="signupLink" href="#" class="nav-menu-button-mobile w-button">Créer un compte</a>
+              </div>
+            </div>
+            <div class="nav-bar-employeur-mobile-surnav">
+              <div class="nav-bar-employeur-surnav-mobile">
+                <div class="nav-bar-menu-open-left flex-vert">
+                  <a href="#" class="nav-menu-link-up-mobile w-inline-block">
+                    <div>À PROPOS</div>
+                  </a>
+                  <a href="#" class="nav-menu-link-up-mobile w-inline-block">
+                    <div>BLOG</div>
+                  </a>
+                  <a href="#" class="nav-menu-button-top w-inline-block"><img src="../../images/x-jobexit-blanc-full.svg" loading="lazy" alt="" class="nav-menu-button-x">
+                    <div>ESPACE SALARIÉ</div>
+                  </a>
+                </div>
+                <div class="nav-bar-menu-open-left">
+                  <a href="https://www.linkedin.com/company/jobexit/" target="_blank" class="nav-menu-social-up w-inline-block"><img src="../../images/linkedin-blanc_1.svg" loading="lazy" alt="Icône LinkedIn"></a>
+                  <a href="../../la-newsletter-de-jobexit.html" target="_blank" class="nav-menu-social-up w-inline-block"><img src="../../images/nav-newsletter-blanc.svg" loading="lazy" alt="Icône Newsletter
+"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-bg bg-white"></div>
+  </div>
+  <div id="tooteltip-content" class="tooltip-content">
+    <div class="tooltip-titre">Titre</div>
+    <div class="tooltip-date">01/12/1983</div>
+  </div>
+  <div class="api-section wait wf-section">
+    <div class="api-wait-bloc"><img src="../../images/loader.svg" loading="lazy" alt="Veuillez patienter" class="api-spinner">
+      <div class="api-wait-txt big">Dans moins de 10 secondes on vous dit tout !</div>
+      <div class="api-wait-txt big">Nous avons besoin de ce délai pour réaliser votre simulation</div>
+      <div class="api-wait-txt">Passé ce délai, si vous n&#x27;avez pas de résultat, écrivez-nous sur la page de contact. <br>Merci de votre patience.</div>
+    </div>
+  </div>
+  <div class="api-section erreur wf-section">
+    <div class="api-erreur-bloc"><img src="../../images/x-jobexit-violet.svg" loading="lazy" alt="" class="api-logo">
+      <div class="api-wait-txt big">Une erreur est survenue</div>
+      <div class="api-wait-txt big">Veuillez nous excuser pour la gène occasionnée</div>
+      <div class="api-wait-txt">Vous pouvez <a href="#" class="api-wait-inline-link">nous contacter</a> pour trouver une solution rapide à ce problème.</div>
+      <a href="../../employeur/espace-employeur/mon-compte.html" class="api-bouton w-inline-block">
+        <div>Mon compte</div>
+      </a>
+    </div>
+  </div>
+  <div class="api-resultat">
+    <div class="api-section wf-section">
+      <div class="api-container">
+        <div class="api-header"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" id="imglogo" alt="" class="api-logo">
+          <div class="api-header-text">
+            <h2 class="api-titre-h1">Nom du dossier</h2>
+            <div id="history-date" class="api-history-date">01/12/2020</div>
+            <div class="api-filet-titre"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="api-section back-violet wf-section">
+      <div class="api-container">
+        <div class="api-simulateur-inter w-form">
+          <div id="accordeon-infos-salarie" class="api-simulateur-titre">
+            <div class="api-filtres-titre">Informations salarié</div><img src="../../images/nav-dropdown-arrow.svg" loading="lazy" alt="" class="api-filtres-arrow">
+          </div>
+          <form data-name="Email Form" name="email-form" id="email-form" class="api-simulateur-formulaire">
+            <div class="api-simulateur-blocs">
+              <div class="api-simulateur-half">
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Convention collective</div><select id="convention-collective" name="convention-collective" data-name="convention-collective" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Son statut</div><select id="statut" name="statut" data-name="statut" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Coefficient</div><select id="coefficient" name="coefficient" data-name="coefficient" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Categorie</div><select id="categorie" name="categorie" data-name="categorie" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Position</div><select id="position" name="position" data-name="position" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Niveau</div><select id="niveau" name="niveau" data-name="niveau" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Groupe</div><select id="groupe" name="groupe" data-name="groupe" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Echelon</div><select id="echelon" name="echelon" data-name="echelon" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+              </div>
+              <div class="api-simulateur-half">
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Date d’entrée</div><input type="text" maxlength="256" name="date-entree" data-name="date-entree" id="date-entree" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Date de naissance</div><input type="text" maxlength="256" name="date-naiss" data-name="date-naiss" id="date-naiss" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Ses congés payés acquis à date</div><input type="text" maxlength="256" name="cp-acquis" data-name="cp-acquis" id="cp-acquis" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Risque de réclamation d&#x27;heures supplémentaires (moyenne par semaine)</div><input type="text" maxlength="256" name="risque-heures-sup" data-name="risque-heures-sup" id="risque-heures-sup" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Risque de réclamation de primes</div><input type="text" maxlength="256" name="risque-primes" data-name="risque-primes" id="risque-primes" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Quel est son taux d&#x27;imposition ?</div><input type="text" maxlength="256" name="taux-imposition" data-name="taux-imposition" id="taux-imposition" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">A votre connaissance, est-il éligible à la retraite ?</div><select id="eligible-retraite" name="eligible-retraite" data-name="eligible-retraite" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Si oui, à taux plein ?</div><select id="taux-plein" name="taux-plein" data-name="taux-plein" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="api-filtres-filet"></div>
+            <div class="api-simulateur-blocs">
+              <div class="api-simulateur-half">
+                <div class="api-simulateur-row"><label class="api-simulateur-radio-bloc w-radio">
+                    <div class="w-form-formradioinput w-form-formradioinput--inputType-custom api-simulateur-radio w-radio-input"></div><input type="radio" data-name="rem" id="radio-annuelle" value="Radio" name="rem" style="opacity:0;position:absolute;z-index:-1"><span class="w-form-label">Rémunération annuelle</span>
+                  </label><input type="text" maxlength="256" name="rem-annuelle" data-name="rem-annuelle" id="rem-annuelle" class="api-filtres-select small rem w-input"></div>
+              </div>
+            </div>
+            <div class="api-filtres-filet"></div><label class="api-simulateur-radio-bloc w-radio">
+              <div class="w-form-formradioinput w-form-formradioinput--inputType-custom api-simulateur-radio w-radio-input"></div><input type="radio" data-name="rem" id="radio-detaillee" value="Radio" name="rem" style="opacity:0;position:absolute;z-index:-1"><span class="w-form-label">Rémunération détaillée</span>
+            </label>
+            <div class="api-simulateur-sous-titre">Fixe</div>
+            <div class="api-simulateur-blocs">
+              <div class="api-simulateur-half">
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Janvier</div><input type="text" maxlength="256" name="rem-fixe-1" data-name="rem-fixe-1" id="rem-fixe-1" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Février</div><input type="text" maxlength="256" name="rem-fixe-2" data-name="rem-fixe-2" id="rem-fixe-2" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Mars</div><input type="text" maxlength="256" name="rem-fixe-3" data-name="rem-fixe-3" id="rem-fixe-3" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Avril</div><input type="text" maxlength="256" name="rem-fixe-4" data-name="rem-fixe-4" id="rem-fixe-4" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Mai</div><input type="text" maxlength="256" name="rem-fixe-5" data-name="rem-fixe-5" id="rem-fixe-5" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Juin</div><input type="text" maxlength="256" name="rem-fixe-6" data-name="rem-fixe-6" id="rem-fixe-6" class="api-filtres-select small w-input">
+                </div>
+              </div>
+              <div class="api-simulateur-half">
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Juillet</div><input type="text" maxlength="256" name="rem-fixe-7" data-name="rem-fixe-7" id="rem-fixe-7" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Août</div><input type="text" maxlength="256" name="rem-fixe-8" data-name="rem-fixe-8" id="rem-fixe-8" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Septembre</div><input type="text" maxlength="256" name="rem-fixe-9" data-name="rem-fixe-9" id="rem-fixe-9" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Octobre</div><input type="text" maxlength="256" name="rem-fixe-10" data-name="rem-fixe-10" id="rem-fixe-10" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Novembre</div><input type="text" maxlength="256" name="rem-fixe-11" data-name="rem-fixe-11" id="rem-fixe-11" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Rémunération fixe - Décembre</div><input type="text" maxlength="256" name="rem-fixe-12" data-name="rem-fixe-12" id="rem-fixe-12" class="api-filtres-select small w-input">
+                </div>
+              </div>
+            </div>
+            <div class="api-simulateur-sous-titre">Avantages en nature</div>
+            <div class="api-simulateur-blocs">
+              <div class="api-simulateur-half">
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Janvier</div><input type="text" maxlength="256" name="avantage-nature-1" data-name="avantage-nature-1" id="avantage-nature-1" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Février</div><input type="text" maxlength="256" name="avantage-nature-2" data-name="avantage-nature-2" id="avantage-nature-2" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Mars</div><input type="text" maxlength="256" name="avantage-nature-3" data-name="avantage-nature-3" id="avantage-nature-3" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Avril</div><input type="text" maxlength="256" name="avantage-nature-4" data-name="avantage-nature-4" id="avantage-nature-4" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Mai</div><input type="text" maxlength="256" name="avantage-nature-5" data-name="avantage-nature-5" id="avantage-nature-5" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Juin</div><input type="text" maxlength="256" name="avantage-nature-6" data-name="avantage-nature-6" id="avantage-nature-6" class="api-filtres-select small w-input">
+                </div>
+              </div>
+              <div class="api-simulateur-half">
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Juillet</div><input type="text" maxlength="256" name="avantage-nature-7" data-name="avantage-nature-7" id="avantage-nature-7" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Août</div><input type="text" maxlength="256" name="avantage-nature-8" data-name="avantage-nature-8" id="avantage-nature-8" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Septembre</div><input type="text" maxlength="256" name="avantage-nature-9" data-name="avantage-nature-9" id="avantage-nature-9" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Octobre</div><input type="text" maxlength="256" name="avantage-nature-10" data-name="avantage-nature-10" id="avantage-nature-10" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Novembre</div><input type="text" maxlength="256" name="avantage-nature-11" data-name="avantage-nature-11" id="avantage-nature-11" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Avantages en nature - Décembre</div><input type="text" maxlength="256" name="avantage-nature-12" data-name="avantage-nature-12" id="avantage-nature-12" class="api-filtres-select small w-input">
+                </div>
+              </div>
+            </div>
+            <div class="api-simulateur-sous-titre">Variable</div>
+            <div class="api-simulateur-blocs">
+              <div class="api-simulateur-half">
+                <div id="api-variable-1" class="api-simulateur-row">
+                  <div class="api-simulateur-label-bloc">
+                    <div class="api-label xsmall">Montant prime</div><input type="text" maxlength="256" name="variable-1" data-name="variable-1" id="variable-1" class="api-filtres-select small variable champ w-input">
+                  </div>
+                  <div class="api-simulateur-label-bloc">
+                    <div class="api-label xsmall">Périodicité</div><select id="variable-2" name="variable-2" data-name="variable-2" class="api-filtres-select small variable w-select">
+                      <option value="false">Non</option>
+                      <option value="true">Oui</option>
+                      <option value="Another Choice">Another Choice</option>
+                    </select>
+                  </div>
+                  <div class="api-simulateur-label-bloc">
+                    <div class="api-label xsmall">Discrétionnaire</div><select id="variable-3" name="variable-3" data-name="variable-3" class="api-filtres-select small variable w-select">
+                      <option value="false">Non</option>
+                      <option value="true">Oui</option>
+                      <option value="Another Choice">Another Choice</option>
+                    </select>
+                  </div>
+                  <div class="api-simulateur-label-bloc">
+                    <div class="api-label xsmall">Type</div><select id="variable-4" name="variable-4" data-name="variable-4" class="api-filtres-select small variable w-select">
+                      <option value="false">Non</option>
+                      <option value="true">Oui</option>
+                      <option value="Another Choice">Another Choice</option>
+                    </select>
+                  </div>
+                  <div class="api-simulateur-label-bloc last">
+                    <div class="api-label xsmall">Période</div><select id="variable-5" name="variable-5" data-name="variable-5" class="api-filtres-select small variable w-select">
+                      <option value="false">Non</option>
+                      <option value="true">Oui</option>
+                      <option value="Another Choice">Another Choice</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="api-simulateur-half"></div>
+            </div>
+            <a id="filtres-valider" href="#" class="api-btn-variable w-inline-block">
+              <div>Ajouter une rémunération variable</div>
+            </a>
+            <a id="filtres-valider" href="#" class="api-bouton filtres w-inline-block">
+              <div>Valider</div>
+            </a>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+        <div class="api-simulateur-inter last w-form">
+          <div id="accordeon-infos-entreprise" class="api-simulateur-titre">
+            <div class="api-filtres-titre">Informations entreprise</div><img src="../../images/nav-dropdown-arrow.svg" loading="lazy" alt="" class="api-filtres-arrow">
+          </div>
+          <form data-name="Email Form" name="email-form" id="email-form" class="api-simulateur-formulaire">
+            <div class="api-simulateur-blocs">
+              <div class="api-simulateur-half full">
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Votre entreprise/groupe a moins de 1000 salariés</div><select id="moins-1000" name="moins-1000" data-name="moins-1000" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Votre entreprise a moins de 11 salariés</div><select id="moins-11" name="moins-11" data-name="moins-11" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Appartenance à un syndicat</div><select id="appartenance-syndicat" name="appartenance-syndicat" data-name="appartenance-syndicat" class="api-filtres-select small w-select">
+                    <option value="false">Non</option>
+                    <option value="true">Oui</option>
+                  </select>
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Durée de reclassement</div><input type="text" maxlength="256" name="duree-reclassement" data-name="duree-reclassement" id="duree-reclassement" class="api-filtres-select small w-input">
+                </div>
+                <div class="api-simulateur-row">
+                  <div class="api-label small">Taux de reclassement</div><input type="text" maxlength="256" name="taux-reclassement" data-name="taux-reclassement" id="taux-reclassement" class="api-filtres-select small w-input">
+                </div>
+              </div>
+            </div>
+            <a id="filtres-valider" href="#" class="api-bouton filtres w-inline-block">
+              <div>Valider</div>
+            </a>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="api-section back-violet wf-section">
+      <div class="api-container">
+        <div class="api-filtres-grille">
+          <div class="api-simulateur-inter vert w-form">
+            <div id="accordeon-valeurs" class="api-simulateur-titre">
+              <div class="api-filtres-titre">Modification des valeurs</div><img src="../../images/nav-dropdown-arrow.svg" loading="lazy" alt="" class="api-filtres-arrow">
+            </div>
+            <form data-name="Email Form" name="email-form" id="email-form" class="api-simulateur-formulaire">
+              <div class="api-label">Salaire et date de début</div><select id="field-4" name="field-4" data-name="Field 4" class="api-filtres-select w-select">
+                <option value="false">Non</option>
+                <option value="true">Oui</option>
+              </select>
+              <div class="api-label">Date de début</div><input type="text" class="api-filtres-select w-input" maxlength="256" name="date" data-name="date" placeholder="Aujourd&#x27;hui" id="datepicker" required="">
+              <div class="api-label">Nombre de mois d’indemnité négociation</div><input type="text" class="api-filtres-select w-input" maxlength="256" name="field-2" data-name="Field 2" placeholder="0" id="field-2" required="">
+              <div class="api-label">Type d’indemnité négociée</div><select id="field-3" name="field-3" data-name="Field 3" class="api-filtres-select w-select">
+                <option value="lorem">Lorem</option>
+                <option value="ipsum">Ipsum</option>
+              </select>
+              <div class="api-label">Affichage des montants</div><select id="field-3" name="field-3" data-name="Field 3" class="api-filtres-select w-select">
+                <option value="cout-employeur">Coût employeur</option>
+                <option value="brut">Brut</option>
+                <option value="net">Net</option>
+                <option value="netai">Net avant impôts</option>
+              </select>
+              <a id="filtres-valider" href="#" class="api-bouton filtres w-inline-block">
+                <div>Valider</div>
+              </a>
+              <div class="api-filtres-filet"></div>
+              <div class="api-filtres-titre margin-t-1 margin-b-1">Partage</div><label class="w-checkbox api-filtres-checkbox">
+                <div class="w-checkbox-input w-checkbox-input--inputType-custom api-filtres-checkicon w--redirected-checked"></div><input type="checkbox" id="checkbox-4" name="checkbox-4" data-name="Checkbox 4" checked="" style="opacity:0;position:absolute;z-index:-1"><span class="w-form-label">Tableau général</span>
+              </label><label class="w-checkbox api-filtres-checkbox">
+                <div class="w-checkbox-input w-checkbox-input--inputType-custom api-filtres-checkicon"></div><input type="checkbox" id="checkbox-3" name="checkbox-3" data-name="Checkbox 3" style="opacity:0;position:absolute;z-index:-1"><span class="w-form-label">Détails</span>
+              </label><label class="w-checkbox api-filtres-checkbox">
+                <div class="w-checkbox-input w-checkbox-input--inputType-custom api-filtres-checkicon"></div><input type="checkbox" id="checkbox-2" name="checkbox-2" data-name="Checkbox 2" style="opacity:0;position:absolute;z-index:-1"><span class="w-form-label">Explications</span>
+              </label>
+              <div class="api-btn-pdf-bloc">
+                <div id="pdfAnimation" class="api-btn-pdf-anim"><img src="../../images/loader-blanc.svg" loading="lazy" width="24" height="24" alt="Veuillez patienter"></div>
+                <a id="pdfBouton" href="#" class="api-btn-pdf-btn w-inline-block">
+                  <div>enregistrer en pdf</div>
+                </a>
+              </div>
+            </form>
+            <div class="w-form-done">
+              <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div class="w-form-fail">
+              <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+          </div>
+          <div id="tableau" class="w-layout-grid api-grille-tb">
+            <div id="w-node-_2920f96e-5c51-154c-3f8e-24e1a2415f23-c348db8c" class="api-tb-titre">
+              <div class="api-tb-titre-txt">Licenciement pour motif économique</div>
+            </div>
+            <div id="w-node-_2920f96e-5c51-154c-3f8e-24e1a2415f26-c348db8c" class="api-tb-cell">
+              <h5 class="api-tb-sous-titre">indemnités dues</h5>
+              <div class="api-tb-inter">
+                <div class="api-tb-nom">licenciement</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <div class="api-tb-inter">
+                <div class="api-tb-nom">congés payés</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <div class="api-tb-inter lic-pre">
+                <div class="api-tb-nom">préavis</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <div class="api-tb-inter conge-reclass">
+                <div class="api-tb-nom">Congé de reclassement</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+            <div id="w-node-_2920f96e-5c51-154c-3f8e-24e1a2415f54-c348db8c" class="api-tb-cell risk"><img src="../../images/x-jobexit-violet.svg" loading="lazy" width="32" alt="" class="api-ltb-logo">
+              <h6 class="api-tb-sous-titre">Risque supplémentaire si contentieux</h6>
+              <div class="api-tb-inter">
+                <div class="api-tb-nom">Maximum</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div><img src="../../images/min-max.svg" loading="lazy" width="32" alt="Icône flèche vers le haut, du minimum au maximum">
+                <div class="api-tb-nom">Minimum</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+            <div class="api-tb-cell">
+              <h6 class="api-tb-sous-titre">Votre hypothèse d&#x27;indemnité négociée</h6>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+            <div class="api-tb-cell">
+              <h6 class="api-tb-sous-titre">Les allocations-chômage dU salarié</h6>
+              <div class="gantt-container">
+                <div id="gantt1" class="gantt-bloc _1"></div>
+                <div id="gantt2" class="gantt-bloc _2"></div>
+                <div id="gantt3" class="gantt-bloc _3"></div>
+                <div id="gantt4" class="gantt-bloc _4"></div>
+              </div>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                  <div class="api-tb-valeur-mensuel">/ mois</div>
+                </div>
+                <div class="api-tb-date">du 17 juin 2021</div>
+                <div class="api-tb-date">au 17 juin 2022</div>
+              </div>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                  <div class="api-tb-valeur-mensuel">/ mois</div>
+                </div>
+                <div class="api-tb-date">du 17 juin 2021</div>
+                <div class="api-tb-date">au 17 juin 2022</div>
+              </div>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                  <div class="api-tb-valeur-mensuel">/ mois</div>
+                </div>
+                <div class="api-tb-date">du 17 juin 2021</div>
+                <div class="api-tb-date">au 17 juin 2022</div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+            <div id="LE-head" class="api-tb-titre w-node-_2920f96e-5c51-154c-3f8e-24e1a2415fa6-c348db8c">
+              <div class="api-tb-titre-txt">Licenciement pour motif économique</div>
+            </div>
+            <div id="LE-ind" class="api-tb-cell w-node-_2920f96e-5c51-154c-3f8e-24e1a2415fa9-c348db8c">
+              <h6 class="api-tb-sous-titre">indemnités dues</h6>
+              <div class="api-tb-inter">
+                <div class="api-tb-nom">licenciement</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <div class="api-tb-inter">
+                <div class="api-tb-nom">congés payés</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <div class="api-tb-inter lic-pre">
+                <div class="api-tb-nom">préavis</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <div class="api-tb-inter conge-reclass">
+                <div class="api-tb-nom">Congé de reclassement</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+                <div class="api-tb-date">le 27 juin 2021</div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+            <div id="LE-risk" class="api-tb-cell risk w-node-_2920f96e-5c51-154c-3f8e-24e1a2415fd7-c348db8c"><img src="../../images/x-jobexit-violet.svg" loading="lazy" width="32" alt="" class="api-ltb-logo">
+              <h6 class="api-tb-sous-titre">Risque supplémentaire si contentieux</h6>
+              <div class="api-tb-inter">
+                <div class="api-tb-nom">Maximum</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div><img src="../../images/min-max.svg" loading="lazy" width="32" alt="Icône flèche vers le haut, du minimum au maximum">
+                <div class="api-tb-nom">Minimum</div>
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+            <div id="LE-hyp" class="api-tb-cell">
+              <h6 class="api-tb-sous-titre">Votre hypothèse d&#x27;indemnité négociée</h6>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                </div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+            <div id="LE-are" class="api-tb-cell">
+              <h6 class="api-tb-sous-titre">Les allocations-chômage dU salarié</h6>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                  <div class="api-tb-valeur-mensuel">/ mois</div>
+                </div>
+                <div class="api-tb-date">du 17 juin 2021</div>
+                <div class="api-tb-date">au 17 juin 2022</div>
+              </div>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                  <div class="api-tb-valeur-mensuel">/ mois</div>
+                </div>
+                <div class="api-tb-date">du 17 juin 2021</div>
+                <div class="api-tb-date">au 17 juin 2022</div>
+              </div>
+              <div class="api-tb-inter">
+                <div class="api-tb-montant">
+                  <div>1 751</div>
+                  <div>€</div>
+                  <div class="api-tb-valeur-mensuel">/ mois</div>
+                </div>
+                <div class="api-tb-date">du 17 juin 2021</div>
+                <div class="api-tb-date">au 17 juin 2022</div>
+              </div>
+              <a href="#le-inde" class="api-bouton-small w-inline-block">
+                <div>En savoir plus</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rappel-infos" class="api-section wf-section">
+      <div class="api-container">
+        <h3 class="api-titre-h3 margin-b-3">Rappel des informations</h3>
+        <div id="INFOS-recap" class="w-layout-grid api-infos-grille">
+          <div class="api-infos-half">
+            <h5 class="api-titre-3">Informations salarié</h5>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Son ancienneté (à la date de début des démarches)</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Son salaire mensuel moyen sur les 12 derniers mois *</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+                <div class="api-infos-val">€</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Son statut</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Ses congés payés acquis à date</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+                <div class="api-infos-val unite">jours</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Risque de réclamation d&#x27;heures supplémentaires (moyenne par semaine)</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Risque de réclamation de primes </div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+                <div class="api-infos-val unite">€</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Son âge</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">A votre connaissance, est-il éligible à la retraite ?</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Si oui, à taux plein ?</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item last">
+              <div class="api-infos-list-txt">Quel est son taux d&#x27;imposition ?</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+          </div>
+          <div class="api-infos-half">
+            <h5 class="api-titre-3">Informations entreprise</h5>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Votre convention collective</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Votre entreprise/groupe a moins de 1000 salariés</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Votre entreprise a moins de 11 salariés</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <h5 class="api-titre-3 margin-t-3">Informations rupture de contrat</h5>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Souhaitez-vous dispenser votre salarié de préavis ?</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Envisagez-vous un licenciement pour motif économique ?</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Si oui, quelle sera la durée du congé de reclassement ?</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Si oui, quel sera le taux de l&#x27;allocation de reclassement versée pendant le congé ?</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item">
+              <div class="api-infos-list-txt">Date de début des démarches de rupture de contrat</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+            <div class="api-infos-list-item last">
+              <div class="api-infos-list-txt">Hypothèse d&#x27;indemnité négociée</div>
+              <div class="api-infos-val-bloc">
+                <div class="api-infos-val">-</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="api-section wf-section">
+      <div class="api-container">
+        <div id="espLE">
+          <h3 class="api-titre-h3 margin-b-3">Détails sur le licenciement pour motif économique</h3>
+          <div id="le-inde" class="api-esp-bloc">
+            <h4 class="api-titre-h4">Les indemnités dues par l&#x27;entreprise</h4>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>L&#x27;indemnité de licenciement</h5>
+                <p>Le salarié a droit à l&#x27;indemnité de licenciement prévue par la convention collective, ou à celle prévue par le Code du travail si elle est plus élevée. Le Code du travail utilise uniquement l&#x27;ancienneté et le salaire, tandis que les conventions collectives peuvent prendre en compte plus de paramètres (classification, âge).<br></p>
+              </div>
+              <div class="margin-b-3">
+                <h6 class="api-titre-h6">Ce que prévoit la loi</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">L&#x27;indemnité exprimée en mois de salaire</div>
+                    <div class="api-esp-montant">-</div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">L&#x27;indemnité de licenciement</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-b-3">
+                <h6 class="api-titre-h6">Ce que prévoit votre convention collective</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">L&#x27;indemnité exprimée en mois de salaire</div>
+                    <div class="api-esp-montant">-</div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>+</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Majoration ou minoration dûe à l&#x27;âge et / ou à l&#x27;ancienneté</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8610-c348db8c" class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">L&#x27;indemnité de licenciement</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6 class="api-titre-h6">La formule la plus avantageuse pour le salarié entre les deux</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb861c-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant de l&#x27;indemnité de licenciement</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant active">-</div>
+                      <div class="api-esp-montant active">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant active">-</div>
+                      <div class="api-esp-montant active">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant active">-</div>
+                      <div class="api-esp-montant active">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li><strong>Coût employeur = brut + cotisations sociales patronales</strong>.<strong> Net = brut - cotisations sociales salariales</strong>.  </li>
+                    <li>Le régime fiscal et social de l&#x27;indemnité de licenciement est assez complexe. De manière simplifiée, on peut retenir que : <br>- l&#x27;indemnité est soumise à cotisations sociales pour la part qui dépasse 82.272 euros <br>- l&#x27;indemnité est entièrement soumise à charges si elle atteint 411 360 € <br> </li>
+                    <li><strong>Net après impôt = net + CSG non déductible - impôt sur le revenu</strong>. </li>
+                  </ul>
+                  <p>Cette indication figure seulement pour mémoire car l&#x27;indemnité de licenciement n&#x27;est pas imposable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>L&#x27;indemnité compensatrice de congés payés (ICCP)</h5>
+                <p>En cas de rupture du contrat de travail, l&#x27;entreprise doit au salarié une indemnité correspondant aux congés non soldés. Jobexit calcule les congés payés que le salarié va acquérir d&#x27;ici à la rupture du contrat en plus de ceux qu&#x27;il a acquis jusqu&#x27;à maintenant.<br></p>
+              </div>
+              <div class="margin-b-3">
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div>
+                      <div class="api-esp-tb-txt">Les congés payés acquis par le salarié en date du dernier bulletin de salaire</div>
+                      <div class="api-esp-tb-txt">-</div>
+                    </div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>+</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div>
+                      <div class="api-esp-tb-txt">Les congés pays qu&#x27;il aura acquis d&#x27;ici à la rupture du contrat</div>
+                      <div class="api-esp-tb-txt">-</div>
+                    </div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div>
+                      <div class="api-esp-tb-txt">Le total de congés payés au </div>
+                      <div class="api-esp-tb-txt">-</div>
+                    </div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div>
+                      <div class="api-esp-tb-txt">Le total de congés payés au </div>
+                      <div class="api-esp-tb-txt">-</div>
+                    </div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">1O% du salaire brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8696-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant des ICCP</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>Jobexit calcule pour vous le coût total employeur (= ce qui vous devrez concrètement verser) et pour information le net après impôt (=ce que le salarié va toucher). Comme tout élément de salaire, les heures supplémentaires sont toujours intégralement soumises aux cotisations sociales et à l&#x27;impôt sur le revenu.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>L&#x27;indemnité compensatrice de préavis dans le cadre d&#x27;un CSP</h5>
+                <p>Votre entreprise (ou le groupe auquel elle appartient) comptant moins de 1000 salariés, vous devez proposer le Contrat de Sécurisation Professionnelle (CSP) au salarié licencié. Jobexit prend l&#x27;hypothèse que le salarié va adhérer au CSP. Le CSP lui permet d&#x27;obtenir une allocation chômage plus élevée, en contrepartie de la renonciation à son préavis. Toutefois, lorsque le préavis est supérieur à 3 mois, alors le salarié touche une indemnité compensatrice égale à la part du préavis dépassant 3 mois. C&#x27;est ce qui est chiffré ici.</p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée du préavis (en mois)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée de ce préavis, dépassant 3 mois, donnant droit à une indemnité compensatrice</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>+</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb86e2-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant de l&#x27;indemnité compensatrices de préavis</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>Jobexit calcule pour vous le coût total employeur (= ce qui vous devrez concrètement verser) et pour information le net après impôt (=ce que le salarié va toucher). Comme tout élément de salaire, les heures supplémentaires sont toujours intégralement soumises aux cotisations sociales et à l&#x27;impôt sur le revenu.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>L&#x27;indemnité compensatrice de préavis</h5>
+                <p>Vous avez choisi de dispenser votre salarié d&#x27;effectuer son préavis. Vous devrez donc verser à ce dernier une indemnité compensatrice pour la période de préavis non effectuée, calculée sur la base de sa rémunération fixe et variable (hors primes exceptionnelles) des 12 derniers mois.</p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée du préavis (en mois)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8723-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant de l&#x27;indemnité compensatrice de préavis</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>Jobexit calcule pour vous le coût total employeur (= ce qui vous devrez concrètement verser). Contrairement aux indemnités de licenciement, l&#x27;indemnité compensatrice de congés payés est toujours intégralement soumise à cotisations patronales, aux cotisations salariales et à l&#x27;impôt.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Contribution due à Pôle Emploi dans le cadre d&#x27;un CSP</h5>
+                <p>Votre entreprise (ou le groupe auquel elle appartient) comptant moins de 1000 salariés, vous devez proposer le contrat de Sécurisation Professionnelle (CSP) au salarié licencié. Jobexit prend l&#x27;hypothèse que le salarié va adhérer au CSP. Dans ce cas, vous devez verser à Pôle Emploi une contribution égale à la durée du préavis dans la limite de 3 mois, plus les charges patronales afférentes.</p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée du préavis (en mois)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div> </div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée de ce préavis, dans la limite de 3 mois</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb876f-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant de la contribution due à Pôle Emploi</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner api-inner-last">
+              <div class="api-esp-rich w-richtext">
+                <h5>Congé de reclassement</h5>
+                <p>Votre entreprise (ou le groupe auquel elle appartient) comptant plus de 1000 salariés, elle doit proposer au salarié un congé de reclassement en cas de licenciement pour motif économique. Ce congé comprend le préavis et sa durée totale est de 4 à12 mois (ou de 4 à 24 mois en cas de formation longue effectuée pendant le congé). Ce Congé permet au salarié de recevoir l&#x27;aide d&#x27;une cellule d&#x27;accompagnement pour retrouver une solution d&#x27;emploi. Jobexit simule ici le montant de l&#x27;allocation due au titre de la part du Congé de reclassement qui dépasse le préavis. </p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée du congé de reclassement dépassant la durée de préavis</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Taux du congé de reclassement</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb87a6-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant de l&#x27;allocation du congé de reclassement</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details margin-b-8">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>L&#x27;allocation du congé de reclassement n&#x27;est pas soumise à cotisations sociales. Elle est en revanche soumise à la CSG-CRDS (à taux réduit) et à l&#x27;impôt sur le revenu. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="le-risk" class="api-esp-bloc">
+            <h4 class="api-titre-h4">Les risques supplémentaires en cas de contentieux</h4>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Tableau récapitulatif des risques</h5>
+              </div>
+              <div>
+                <div class="api-esp-tableau">
+                  <div class="api-esp-tb-header"></div>
+                  <div class="api-esp-tb-header filet-haut filet-gauche">
+                    <div>Coût employeur</div>
+                  </div>
+                  <div class="api-esp-tb-header filet-haut filet-gauche">
+                    <div>Brut</div>
+                  </div>
+                  <div class="api-esp-tb-header filet-haut filet-gauche">
+                    <div>Net</div>
+                  </div>
+                  <div class="api-esp-tb-header filet-haut filet-gauche filet-droit">
+                    <div>Net après impôts</div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-haut filet-gauche total-risque">
+                    <div>Total risque maximum</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-haut filet-gauche total-risque">
+                    <div>Total risque minimum</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche violet filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-haut filet-gauche">
+                    <div>Indemnités prud&#x27;homales maximum</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-haut filet-gauche">
+                    <div>Indemnités prud&#x27;homales minimum</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-haut filet-gauche">
+                    <div>Remboursement préavis et CP</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-gauche filet-haut">
+                    <div>Indemnité de licenciement</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-gauche filet-haut">
+                    <div>Remboursement ARE</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-haut filet-gauche">
+                    <div>Rappel heures supplémentaires</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-droit">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-intro filet-haut filet-gauche filet-bas">
+                    <div>Rappel de primes</div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-bas">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-bas">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-bas">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-tb-montant filet-haut filet-gauche filet-droit filet-bas">
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque d&#x27;indemnités prud&#x27;homales</h5>
+                <p>Si le Conseil de prud&#x27;hommes est saisi par le salarié et juge le licenciement injustifié (sans cause réelle ni sérieuse), il attribue au salarié une indemnité à la charge de l&#x27;employeur. Le montant de l&#x27;indemnité varie selon l&#x27;ancienneté du salarié et l&#x27;effectif de l&#x27;entreprise. Son montant est compris entre un minimum et un maximum qui sont calculés ici.</p>
+              </div>
+              <div class="margin-b-3">
+                <h6 class="api-titre-h6">L&#x27;indemnité maximale prévue par le barème prud&#x27;homal </h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">L&#x27;indemnité maximale exprimée en mois de salaire</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb88f8-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant maximal de l&#x27;indemnité</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6 class="api-titre-h6">L&#x27;indemnité minimale prévue par le barème prud&#x27;homal</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">L&#x27;indemnité minimale exprimée en mois de salaire</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8930-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Montant minimal de l&#x27;indemnité</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+                <div id="resultats-details" class="api-esp-details margin-b-8">
+                  <h6 class="api-esp-details-titre">Quelques explications</h6>
+                  <div class="api-esp-details-rich w-richtext">
+                    <ul role="list">
+                      <li><strong>Coût employeur = brut + cotisations sociales patronale</strong></li>
+                      <li>‍<strong>Net = brut - cotisations sociales salariales</strong>.  </li>
+                    </ul>
+                    <p>Le régime fiscal et social de l&#x27;indemnité prud&#x27;homale est assez complexe. De manière simplifiée, on peut retenir que lorsque le total de l&#x27;indemnité de licenciement et de l&#x27;indemnité prud&#x27;homale dépasse 82.272 euros, alors la fraction qui dépasse ce montant est soumise à cotisations sociales. </p>
+                    <ul role="list">
+                      <li><strong>Net après impôt = net + CSG non déductible - impôt sur le revenu</strong>. </li>
+                    </ul>
+                    <p>Cette indication figure seulement pour mémoire car l&#x27;indemnité de licenciement n&#x27;est pas imposable.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque de remboursement du préavis et des congés payés afférents dans le cadre d&#x27;un CSP</h5>
+                <p>Si le conseil de prud&#x27;hommes juge le licenciement injustifié, alors le salarié a droit au paiement de l&#x27;indemnité de préavis dont il a été privé en acceptant le CSP... C&#x27;est le montant simulé ici par Jobexit.</p>
+              </div>
+              <div class="resultat-details-schema-bloc">
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée du préavis en mois</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence </div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8991-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">L&#x27;indemnité compensatrice de préavis</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details margin-b-8">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>Jobexit calcule pour vous le coût total employeur (= ce qui vous devrez concrètement verser) et pour information le net après impôt (=ce que le salarié va toucher). Comme tout élément de salaire, l&#x27;indemnité de préavis est toujours intégralement soumises aux cotisations sociales et à l&#x27;impôt sur le revenu.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque de remboursement du préavis et des congés payés</h5>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée du préavis en mois</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La salaire brut mensuel de référence </div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>+</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Les congés payés afférents au préavis</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb89dd-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">L&#x27;indemnité compensatrice de préavis</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details margin-b-8">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>Jobexit calcule pour vous le coût total employeur (= ce qui vous devrez concrètement verser). Contrairement aux indemnités de licenciement, l&#x27;indemnité compensatrice de congés payés est toujours intégralement soumise à cotisations patronales, aux cotisations salariales et à l&#x27;impôt.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque des indemnités de licenciement</h5>
+                <p>Lorem ipsum</p>
+              </div>
+              <div class="margin-b-3">
+                <h6 class="api-titre-h6">Ce que prévoit la loi</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Les indemnités exprimées en mois de salaire</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Les indemnités de licenciement</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-b-3">
+                <h6 class="api-titre-h6">Ce que prévoit votre convention collective</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Les indemnités exprimées en mois de salaire</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire mensuel brut de référence</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>+</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Majoration ou minoration dûe à l&#x27;âge et / ou à l&#x27;ancienneté</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8a4c-c348db8c" class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Les indemnités de licenciement</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6 class="api-titre-h6">La formule la plus avantageuse pour le salarié entre les deux</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8a58-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Les indemnités de licenciement</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+                <div id="resultats-details" class="api-esp-details margin-b-8">
+                  <h6 class="api-esp-details-titre">Quelques explications</h6>
+                  <div class="api-esp-details-rich w-richtext">
+                    <ul role="list">
+                      <li>Lorem ipsum</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque de remboursement des allocations-chômage (ASP) dans le cadre d&#x27;un CSP</h5>
+                <p>Lorsque le licenciement est jugé injustifié, l&#x27;entreprise doit rembourser l&#x27;allocation chômage versée par Pôle emploi dans la limite de 6 mois d&#x27;allocations brutes. </p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Maximum de jours à rembourser</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Allocation chômage journalière</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>-</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Contribution CSP</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8aa5-c348db8c" class="api-esp-flex-center active">
+                    <div class="resultat-details-titre">Total à rembourser à Pôle emploi</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details margin-b-8">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>Ce risque s&#x27;applique dans votre cas parce que les conditions légales sont réunies (entreprise d&#x27;au moins 11 salariés et salarié d&#x27;au moins 2 ans d&#x27;ancienneté). NB, la contribution au CSP versée par l&#x27;entreprise viendrait en déduction du montant à rembourser. </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque de remboursement des allocations-chômage (ARE)</h5>
+                <p>Lorem ipsum</p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée en mois de votre préavis</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">La durée de ce préavis, dépassant 3 mois, donnant droit à une indemnité compensatrice</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8ad8-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Vos indemnités de licenciement</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div id="resultats-details" class="api-esp-details margin-b-8">
+                <h6 class="api-esp-details-titre">Quelques explications</h6>
+                <div class="api-esp-details-rich w-richtext">
+                  <ul role="list">
+                    <li>Lorem ipsum</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque de rappel d&#x27;heures supplémentaires</h5>
+                <p>Vous pensez que votre salarié peut réclamer des heures supplémentaires? Vous avez intérêt à en tenir compte dans la gestion du dossier. En effet, il pourrait les demander en justice à la suite de son départ. Le simulateur prend comme hypothèse de référence un horaire applicable de 35H. </p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid margin-b-3">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Nombre de semaines concernées (dans la limite de 3 ans)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Nombre d&#x27;heures supplémentaires (dans la limite de 8) faisant l&#x27;objet d&#x27;une majoration de 25%</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Taux horaire majoré de 25%</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8b19-c348db8c" class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Rappel d&#x27;heures supplémentaires (y compris 10% de congés payés)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid api-esp-grid margin-b-3">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Nombre de semaines concernées (dans la limite de 3 ans)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Nombre d&#x27;heures supplémentaires (dans la limite de 8) faisant l&#x27;objet d&#x27;une majoration de 50%</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Taux horaire majoré de 50%</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8b40-c348db8c" class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Rappel d&#x27;heures supplémentaires (y compris 10% de congés payés)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8b49-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Rappel d&#x27;heures supplémentaires (y compris 10% de congés payés)</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+                <div id="resultats-details" class="api-esp-details margin-b-8">
+                  <h6 class="api-esp-details-titre">Quelques explications</h6>
+                  <div class="api-esp-details-rich w-richtext">
+                    <ul role="list">
+                      <li>Jobexit calcule pour vous le coût total employeur (= ce qui vous devrez concrètement verser) et pour information le net après impôt (=ce que le salarié va toucher). Comme tout élément de salaire, les heures supplémentaires sont toujours intégralement soumises aux cotisations sociales et à l&#x27;impôt sur le revenu.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="api-esp-inner api-inner-last">
+              <div class="api-esp-rich w-richtext">
+                <h5>Risque de rappel de primes</h5>
+                <p>Vous pensez que votre salarié peut vous réclamer des primes? Vous avez intérêt à en tenir compte dans la gestion du dossier. En effet, il pourrait les demander en justice à la suite de son départ.</p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Rappel de prime </div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Congés payés afférents</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-ee134bdd-3db7-f2be-17c3-8c8d54e9ba4d-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Rappel de primes</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+                <div id="resultats-details" class="api-esp-details margin-b-8">
+                  <h6 class="api-esp-details-titre">Quelques explications</h6>
+                  <div class="api-esp-details-rich w-richtext">
+                    <ul role="list">
+                      <li>Jobexit calcule pour vous le coût total employeur (= ce qui vous devrez concrètement verser) et pour information le net après impôt (=ce que le salarié va toucher). Comme tout élément de salaire, les primes sont toujours intégralement soumises aux cotisations sociales et à l&#x27;impôt sur le revenu.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="le-hyp" class="api-esp-bloc">
+            <h3 class="api-titre-h4">Votre hypothèse d&#x27;indemnité négociée</h3>
+            <div class="api-esp-inner api-inner-last">
+              <div class="api-esp-rich w-richtext">
+                <p>Jobexit vous permet de renseigner une hypothèse d&#x27;indemnité négociée, destinée à éviter les contestations en justice. <br></p>
+              </div>
+              <div>
+                <div class="w-layout-grid api-esp-grid">
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8bad-c348db8c" class="api-esp-flex-center active">
+                    <div class="api-esp-tb-titre">Indemnité négociée</div>
+                    <div class="api-esp-tb-txt">Coût employeur</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Brut</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <div class="api-esp-tb-txt">Net après impôts</div>
+                    <div class="api-esp-bloc-montant active">
+                      <div id="brut-rc-14">-</div>
+                      <div>€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+                <div id="resultats-details" class="api-esp-details margin-b-8">
+                  <h6 class="api-esp-details-titre">Quelques explications</h6>
+                  <div class="api-esp-details-rich w-richtext">
+                    <ul role="list">
+                      <li><strong>Coût employeur = brut + cotisations sociales patronales</strong>.<strong> </strong></li>
+                      <li><strong>Net = brut - cotisations sociales salariales</strong>.  </li>
+                      <li>Le régime fiscal et social de l&#x27;indemnité de rupture est assez complexe. De manière simplifiée, on peut retenir que lorsque le total de l&#x27;indemnité de licenciement et de l&#x27;indemnité négociée dépasse 82.272 euros, alors la fraction dépassant ce plafond est soumise à cotisations sociales. <br>Lorsque ce total atteint 411 360 €, alors l&#x27;intégralité des indemnités sont soumise à cotisations sociales. <br> </li>
+                      <li><strong>Net après impôt = net + CSG non déductible - impôt sur le revenu</strong>. De manière simplifiée, on peut retenir que lorsque le total de l&#x27;indemnité de licenciement et de l&#x27;indemnité négociée dépasse le double de la rémunération annuelle N-1 ou la somme de 246.816 euros, alors la fraction dépassant ce plafond est soumise à l&#x27;impôt. Toutefois, lorsque l&#x27;indemnité négociée est versée dans le cadre d&#x27;une conciliation prud&#x27;homale, elle est exonérée d&#x27;impôt dans la limite du montant prévu par le barème de conciliation. </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="le-are" class="api-esp-bloc last">
+            <h3 class="api-titre-h4">Les allocations-chômage dont va bénéficier votre salarié</h3>
+            <div class="api-esp-inner api-inner-last">
+              <div class="api-esp-rich w-richtext">
+                <p>Votre salarié peut bénéficier de l&#x27;Allocation de Retour à l&#x27;Emploi (ARE) versée par Pôle Emploi. Suivant le mode de rupture du contrat que vous allez choisir, Jobexit vous explique comment est calculé le montant de son allocation, et combien de temps il pourra en bénéficier.<br></p>
+              </div>
+              <div class="margin-b-3">
+                <h6 class="api-titre-h6">1. Calcul du salaire journalier de référence</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le salaire annuel de référence (SAR)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>/</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Nombre de jours d’une année</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le Salaire Journalier de Référence (SJR)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-b-3">
+                <h6 class="api-titre-h6">2. Calcul de l’allocation de retour à l’emploi (ARE) journalière</h6>
+                <div class="w-layout-grid api-esp-grid trois">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Le Salaire Journalier de Référence (SJR)</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Calcul de l&#x27;ARE &gt; Méthode 1</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Calcul de l&#x27;ARE &gt; Méthode 2</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6 class="api-titre-h6">3. Calcul des allocations-chômage mensuelles</h6>
+                <div class="w-layout-grid api-esp-grid">
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Calcul final de l&#x27;ARE</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14" class="api-esp-montant">-</div>
+                      <div class="api-esp-montant">€</div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>x</div>
+                  </div>
+                  <div class="api-esp-flex-center">
+                    <div class="api-esp-tb-txt">Nombre moyen de jour par mois</div>
+                    <div class="api-esp-bloc-montant">
+                      <div id="brut-rc-14">-</div>
+                    </div>
+                  </div>
+                  <div class="api-esp-operator">
+                    <div>=</div>
+                  </div>
+                  <div id="w-node-_69abc1dc-7a43-8ed9-12f4-680320fb8c3a-c348db8c" class="api-esp-flex-center active double">
+                    <div class="api-esp-flex-vert">
+                      <div class="api-esp-dates">
+                        <div class="esp-date">
+                          <div class="api-esp-date-first">du</div>
+                          <div id="brut-lice-29">-</div>
+                        </div>
+                        <div class="esp-date">
+                          <div class="api-esp-date-first">au </div>
+                          <div id="brut-lice-30">-</div>
+                        </div>
+                      </div>
+                      <div class="api-esp-tb-txt">Brut</div>
+                      <div class="api-esp-bloc-montant">
+                        <div id="brut-rc-14" class="api-esp-montant">-</div>
+                        <div class="api-esp-montant">€</div>
+                      </div>
+                      <div class="api-esp-tb-txt">Net</div>
+                      <div class="api-esp-bloc-montant active">
+                        <div id="brut-rc-14">-</div>
+                        <div>€</div>
+                      </div>
+                      <div class="api-esp-tb-txt">Net après impôts</div>
+                      <div class="api-esp-bloc-montant active">
+                        <div id="brut-rc-14">-</div>
+                        <div>€</div>
+                      </div>
+                    </div>
+                    <div class="api-esp-flex-vert">
+                      <div class="api-esp-dates">
+                        <div class="esp-date">
+                          <div class="api-esp-date-first">du</div>
+                          <div id="brut-lice-29">-</div>
+                        </div>
+                        <div class="esp-date">
+                          <div class="api-esp-date-first">au </div>
+                          <div id="brut-lice-30">-</div>
+                        </div>
+                      </div>
+                      <div class="api-esp-tb-txt">Brut</div>
+                      <div class="api-esp-bloc-montant">
+                        <div id="brut-rc-14" class="api-esp-montant">-</div>
+                        <div class="api-esp-montant">€</div>
+                      </div>
+                      <div class="api-esp-tb-txt">Net</div>
+                      <div class="api-esp-bloc-montant active">
+                        <div id="brut-rc-14">-</div>
+                        <div>€</div>
+                      </div>
+                      <div class="api-esp-tb-txt">Net après impôts</div>
+                      <div class="api-esp-bloc-montant active">
+                        <div id="brut-rc-14">-</div>
+                        <div>€</div>
+                      </div>
+                    </div>
+                    <div class="api-esp-flex-vert">
+                      <div class="api-esp-dates">
+                        <div class="esp-date">
+                          <div class="api-esp-date-first">du</div>
+                          <div id="brut-lice-29">-</div>
+                        </div>
+                        <div class="esp-date">
+                          <div class="api-esp-date-first">au </div>
+                          <div id="brut-lice-30">-</div>
+                        </div>
+                      </div>
+                      <div class="api-esp-tb-txt">Brut</div>
+                      <div class="api-esp-bloc-montant">
+                        <div id="brut-rc-14" class="api-esp-montant">-</div>
+                        <div class="api-esp-montant">€</div>
+                      </div>
+                      <div class="api-esp-tb-txt">Net</div>
+                      <div class="api-esp-bloc-montant active">
+                        <div id="brut-rc-14">-</div>
+                        <div>€</div>
+                      </div>
+                      <div class="api-esp-tb-txt">Net après impôts</div>
+                      <div class="api-esp-bloc-montant active">
+                        <div id="brut-rc-14">-</div>
+                        <div>€</div>
+                      </div>
+                    </div>
+                    <a href="#" class="api-esp-info-icon w-inline-block"><img src="../../images/info.svg" loading="lazy" alt="Plus d&#x27;informations" class="api-esp-info-img"></a>
+                  </div>
+                </div>
+                <div id="resultats-details" class="api-esp-details margin-b-8">
+                  <h6 class="api-esp-details-titre">Quelques explications</h6>
+                  <div class="api-esp-details-rich w-richtext">
+                    <ul role="list">
+                      <li>Le salaire annuel de référence (SAR) est égal au salaire fixe et variable des 12 derniers mois pris dans la limite de 164 544 €</li>
+                      <li>Le salaire journalier de référence (SJR) est égal au salaire annuel divisé par le nombre de jours travaillés (plafonné à 261) et multiplié par 1,4.</li>
+                      <li>Calcul de l&#x27;ARE &gt; Méthode 1 : 40,4 % du SJR + 12 €</li>
+                      <li>Calcul de l&#x27;ARE &gt; Méthode 2 : 57 % du SJR</li>
+                      <li>Calcul final de l&#x27;ARE : on retient l&#x27;ARE la plus avantageuse entre la méthode 1 et le méthode 2, sans qu&#x27;elle ne puisse dépasser 75% du SJR, et sans qu&#x27;elle ne descende en-dessous de 29,26€.</li>
+                      <li>Dans le cadre d&#x27;un licenciement économique, si votre entreprise compte moins de 1000 salariés, Jobexit prend l&#x27;hypothèse que le salarié va adhérer à un Contrat de Sécurisation Professionnelle (CSP). L&#x27;allocation (ASP) s&#x27;élève alors à 75% du SJR pendant la première année.</li>
+                      <li>A compter du 1er janvier 2021, les cadres âgés de moins de 57 ans avec un salaire dépassant 4 500 € subissent une décote de 30% de l&#x27;allocation après 6 mois d&#x27;indemnisation.</li>
+                      <li>Jobexit calcule pour vous la différence entre le montant brut de votre ARE et le montant net après impôts (= ce qui reste réellement &quot;dans la poche&quot; du salarié :-). Les allocations chômages sont sont soumises à certaines cotisations sociales (CDG, CRDS, retraite) et sont en outre imposables.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="api-section margin-t-6 wf-section">
+      <div class="api-container">
+        <div id="resultats-details" class="api-esp-details">
+          <h6 class="api-esp-details-titre">AVERTISSEMENT </h6>
+          <div class="api-esp-details-rich w-richtext">
+            <p>Jobexit veut rendre accessible et intelligible le calcul des indemnités et des allocations-chômage au plus grand nombre. Pour ce faire, nous avons pris en compte les hypothèses ci-dessous, qui visent à simplifier les informations que nous vous demandons.</p>
+            <p><strong>SITUATIONS NON PRISES EN COMPTE</strong></p>
+            <ul role="list">
+              <li><strong>Ancienneté. </strong>Certaines périodes ne sont pas, ou pas intégralement prises en compte dans l&#x27;ancienneté, comme les arrêts maladie ou les congé parentaux. De plus, les conventions collectives prévoient parfois des règles de décompte spécifiques. Pour calculer votre ancienneté exacte, il faut donc réaliser une reconstitution particulièrement détaillée. Par simplicité, Jobexit raisonne donc sur une ancienneté calculée à partir de votre date d&#x27;embauche.</li>
+              <li><strong>Temps partiel : </strong>si votre emploi a connu une succession de périodes à temps plein et à temps partiel, un calcul spécifique doit être fait pour tenir compte de cette situation. Ce paramètre, qui exige une saisie des périodes concernées, n&#x27;est pas encore pris en compte par Jobexit. </li>
+              <li>‍<strong>Appartenance de l&#x27;entreprise à un syndicat patronal. </strong>En matière d&#x27;indemnité de licenciement, certaines conventions collectives prévoient des dispositions dites sont &quot;non étendues&quot;. Ces dispositions, souvent plus favorables aux salariés, ne s&#x27;appliquent qu&#x27;aux entreprises adhérentes au syndicat patronal signataire de l&#x27;accord de branche. Jobexit ne prend en compte à ce stade que les dispositions étendues, c&#x27;est-à-dire celles bénéficiant d&#x27;un arrêté d&#x27;extension qui les rend applicables à toutes les entreprises de la branche, adhérentes ou non.<strong>‍</strong></li>
+              <li><strong>Plan de sauvegarde de l&#x27;emploi (PSE). </strong>Si vous êtes licencié dans le cadre d&#x27;un PSE, alors vos indemnités sont entièrement exonérées d&#x27;impôt sur le revenu. Jobexit considère par défaut que votre licenciement n&#x27;intervient pas dans le cadre d&#x27;un PSE. </li>
+              <li><strong>Mandataires sociaux. </strong>Les mandataires sociaux (par exemple un président de société anonyme) ont, pour le calcul de leur indemnité de rupture, des plafonds d&#x27;exonération fiscaux et sociaux plus bas, que les autres salariés. Ce paramètre particulier n&#x27;est pas encore pris en compte par Jobexit.</li>
+              <li><strong>RQTH </strong>: les salariés ayant une reconnaissance de la qualité de travailleurs handicapés (RQTH) ont droit à une durée de préavis doublée, dans la limite de 3 mois. Ce paramètre n&#x27;est pas encore pris en compte par Jobexit.</li>
+            </ul>
+            <p>‍<strong>FACTEURS D&#x27;APPROXIMATION </strong></p>
+            <ul role="list">
+              <li><strong>Rémunérations à prendre en compte</strong>. Il est possible que certaines sommes apparaissent dans le total brut de vos bulletins de salaire, alors qu&#x27;il ne s&#x27;agit pas de rémunérations. C&#x27;est le cas par exemple de sommes actionnariales (stock options ou actions gratuites) ou de remboursements de frais, qui sont intégrés au brut pour des raisons techniques. Ces sommes sont à exclure de la rémunération qui sert de base au calcul de vos indemnités de rupture. Nous partons du principe qu&#x27;elles ne se trouvent pas dans le salaire </li>
+              <li><strong>Charges sociales. </strong>Les cotisations sociales sont susceptibles de varier selon plusieurs paramètres, par exemple les cotisations salariales de prévoyance propres à chaque entreprise et le calcul du plafond de sécurité sociale. Le calcul du superbrut et du net proposé par Jobexit ne peut pas prendre en compte ces particularités, mais reste très précis. </li>
+              <li><strong>Classification. </strong>Lorsque le salarié a changé de statut au cours de sa carrière, certaines convention collective prennent en compte ces périodes de manière différenciée pour l&#x27;indemnité de licenciement. C&#x27;est le cas par exemple de la CCN des Transports routiers. Jobexit considère uniquement le dernier statut appliqué.<strong><br></strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f671798fc6bc6c0ceef7220" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="../../js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  
+  
+  <!-- FIREBASE -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-functions.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+
+  <script src="../../js/settings.js"></script>
+
+  <!-- START de la partie JS de fin -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+  <script src="https://unpkg.com/tippy.js@6"></script>
+
+  <script src="../../js/resultats-full-v1.js"></script>
+  <!-- END de la partie JS de fin --> 
+
+</body>
+</html>

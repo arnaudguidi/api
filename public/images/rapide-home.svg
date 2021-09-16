@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icone/rapide-home</title>
+    <g id="icone/rapide-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="64" height="64"></rect>
+        <g id="Group" transform="translate(2.000000, 15.000000)" stroke-linecap="round" stroke-width="2.71735537">
+            <path d="M12.8279916,31.5958422 C12.8279916,31.5958422 20.2010545,31.5958422 20.2010545,31.5958422 C23.8432784,37.8869102 30.6470898,42.1190083 38.4393606,42.1190083 C50.0702036,42.1190083 59.4988647,32.6903471 59.4988647,21.0595041 C59.4988647,9.42866116 50.0702036,0 38.4393606,0 L31.9191084,0 L-4.4891033e-13,0" id="Path" stroke="#5B0AC4"></path>
+            <line x1="2.70053465" y1="10.5122433" x2="18.3768587" y2="10.5122433" id="Path-2" stroke="#5B0AC4"></line>
+            <line x1="6.77656771" y1="20.6519008" x2="14.9356373" y2="20.6519008" id="Path-2-Copy" stroke="#5B0AC4"></line>
+            <polyline id="Path-3" stroke="#27C400" points="38.033158 8.36077021 38.033158 21.3144313 43.7729454 27.6056544"></polyline>
+        </g>
+    </g>
+</svg>
