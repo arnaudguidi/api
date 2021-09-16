@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icone/bouton-check-on</title>
-    <g id="icone/bouton-check-on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="32" height="32"></rect>
-        <circle id="Oval" stroke="#DCDCDC" fill="#5B0AC4" cx="16" cy="16" r="15.5"></circle>
-        <polygon id="Icon-Path" fill="#FFFFFF" fill-rule="nonzero" points="12.8780352 19.4398885 8.76578327 15.294398 7 17.0744537 12.8780352 23 25 10.7800558 23.2342167 9"></polygon>
-    </g>
-</svg>
